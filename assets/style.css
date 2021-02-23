@@ -16,7 +16,7 @@
 body {
     position: relative;
     font-size: 20px;
-    background-color: var(--lightslate);
+    background-color: var(--white);
 }
 
 h1,
@@ -49,8 +49,8 @@ header,
 footer {
     height:80px;
     width: 100%;
-    background: var(--slate);
-    color: var(--mediumslate);
+    background: var(--darkwhite);
+    color: var(--white);
     font-size: xx-large;
     margin:0;
     padding:0;
@@ -111,19 +111,20 @@ figcaption {
 
 section {
     padding: 20px 10px 180px 10px;
-    background-image: url(https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 
-form { max-width:420px; margin:50px auto; }
+form {
+    max-width:420px;
+    margin:50px auto;
+}
 
 .feedback-input {
-  color:var(--white);
+  color:var(--accent);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: transparent;
   border:2px solid black;
   transition: all 0.3s;
   padding: 13px;
@@ -143,20 +144,23 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background:#black;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+  margin-top: -4px;
+  font-weight: 700;
 }
 
-[type="submit"]:hover { background:var(--accent); }
+[type="submit"]:hover { 
+    background:var(--accent); 
+    color: var(--white)
+}
 
 .text-center {
     text-align: center;
