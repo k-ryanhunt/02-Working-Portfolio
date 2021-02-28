@@ -16,14 +16,15 @@
 body {
     position: relative;
     font-size: 20px;
-    background-color: var(--white);
+    background-attachment: fixed;
+    background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_137204.jpg")
 }
 
 h1,
 h2 {
     margin: 20px;
     font-size: 80px;
-    color:  var(--darkwhite);
+    color:  white;
 }
 
 h2 {
@@ -55,7 +56,9 @@ footer {
     margin:0;
     padding:0;
     line-height: 80px;
-    opacity: .75;
+    opacity: .95;
+    z-index: 1000;
+    background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_137156.jpg")
 }
 
 header {
@@ -87,9 +90,7 @@ img {
 }
 
 .portphoto {
-    opacity: .25;
-    padding: 15px;
-    border: 15px #1b1b1b;
+    opacity: .50;
 }
 
 img:hover {
@@ -187,3 +188,21 @@ footer {
     border-bottom: 15px solid black; 
     font-size: larger;
 }
+
+@media screen and (min-width: 768px) {
+      .portphoto {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .portphoto:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .portphoto {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
