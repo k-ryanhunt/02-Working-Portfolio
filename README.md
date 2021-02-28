@@ -17,7 +17,7 @@ I first started with a section briefly describing who I am and how I came out to
 
 ## Here is the beginning of my Working Portfolio:
 
-![Screenshot](./assets/Images/WorkingPortfolio.PNG)
+![Screenshot](./assets/Images/WorkingPortfolio.png)
 
 ## To check it out live, click here!
 
