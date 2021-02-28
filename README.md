@@ -16,7 +16,7 @@ I created a website with placeholders for now that I can easily swap out later o
 
 ## Here is the beginning of my Working Portfolio:
 
-![Screenshot](./assets/images/WorkingPortfolio.png)
+![Screenshot](./assets/images/WorkingPortfolio.PNG)
 
 ## To check it out live, click here!
 
