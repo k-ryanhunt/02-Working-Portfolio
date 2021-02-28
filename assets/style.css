@@ -95,7 +95,9 @@ img {
 
 img:hover {
     opacity: 1.0;
-    background-image: src="./assets/Images/CODEREFACTOR.jpg";
+    content: src="./assets/Images/CODEREFACTOR.jpg";
+    width: 26%;
+    height: 26%;
 }
 
 figcaption {
