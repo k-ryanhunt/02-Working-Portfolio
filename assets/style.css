@@ -95,19 +95,12 @@ img {
 
 img:hover {
     opacity: 1.0;
+    background-image: src="./assets/Images/CODEREFACTOR.jpg";
 }
 
 figcaption {
     color: var(--white);
     font-size: larger;
-}
-
-.LOTB,
-.GOTG,
-.MOAB {
-    display: inline-block;
-    width: 100%;
-    flex-wrap: wrap;
 }
 
 section {
