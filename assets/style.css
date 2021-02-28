@@ -24,7 +24,7 @@ h1,
 h2 {
     margin: 20px;
     font-size: 80px;
-    color:  white;
+    color:  var(--darkwhite);
 }
 
 h2 {
@@ -78,6 +78,7 @@ footer {
 
 figure {
     margin-bottom: 40px;
+    justify-content: center;
 }
 
 img {
@@ -89,20 +90,64 @@ img {
     padding: 30px;
 }
 
-.portphoto {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+.projects {
+    display: flex;
+    flex-direction: rox;
+    justify-content: space-around;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--white);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .projects .projectName {
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--white);
+    color: var(--slate);
+    border: 2px solid var(--darkwhite);
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+  }
+
+.codeRefactor {
+    width: 75%;
+    height: 25%;
     opacity: .50;
 }
 
-img:hover {
+.codeRefactor:hover {
     opacity: 1.0;
-    content: src="./assets/Images/CODEREFACTOR.jpg";
-    width: 26%;
-    height: 26%;
+    width: 75.5%;
+    height: 25.5%;
+}
+
+.portphoto {
+    opacity: .50;
+    display: flexbox;
+}
+
+.portphoto:hover {
+    opacity: 1.0;
+    width: 25.5%;
+    height: 25.5%;
 }
 
 figcaption {
-    color: var(--white);
+    color: var(--darkwhite);
     font-size: larger;
+    background-color: var(--slate);
+    padding: 50px;
 }
 
 section {
