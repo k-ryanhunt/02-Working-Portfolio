@@ -11,6 +11,7 @@
     margin:0;
     padding:0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    content
 }
 
 body {
@@ -186,6 +187,7 @@ form {
   width:100%;
   box-sizing: border-box;
   outline:0;
+  text-align: center;
 }
 
 .feedback-input:focus { border:2px solid var(--accent); }
