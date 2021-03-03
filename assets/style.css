@@ -136,7 +136,7 @@ img {
 
 .projects {
     display: flex;
-    flex-direction: rox;
+    flex-direction: row;
     justify-content: space-around;
     min-height: 100%;
     padding: 2rem;
@@ -145,15 +145,15 @@ img {
     transition: all 0.5s ease-in-out;
   }
   
-  .projects .projectName {
+  .projectName, {
     position: relative;
-    margin: -4rem 0 1.5rem 0;
-    padding: 0.5rem 1rem;
-    background-color: var(--white);
-    color: var(--slate);
-    border: 2px solid var(--darkwhite);
-    border-radius: 8px;
+    margin: -10px 0;
+    color: var(--white);
     transition: all 0.5s ease-in-out;
+  }
+
+  .placeholder {
+      font-size: 30px;
   }
 
 .codeRefactor {
