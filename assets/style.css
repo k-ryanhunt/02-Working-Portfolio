@@ -106,6 +106,7 @@ footer {
 figure {
     margin-bottom: 40px;
     justify-content: center;
+    display: inline-block;
 }
 
 img {
@@ -137,7 +138,7 @@ img {
 .projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     min-height: 100%;
     padding: 2rem;
     color: var(--white);
@@ -145,11 +146,13 @@ img {
     transition: all 0.5s ease-in-out;
   }
   
-  .projectName, {
+  .projectName {
     position: relative;
-    margin: -10px 0;
+    margin: -20px 0;
     color: var(--white);
+    background-color: var(--mediumslate);
     transition: all 0.5s ease-in-out;
+    padding: 0px;
   }
 
   .placeholder {
@@ -169,8 +172,10 @@ img {
 }
 
 .portphoto {
+    display: flex;
+    flex-wrap: wrap;
     opacity: .50;
-    display: flexbox;
+    position: relative;
     border: 7px solid transparent;
 }
 

@@ -2,7 +2,7 @@
 
 ## What is the Working-Portfolio project about?
 
-For this project, I was tasked with creating a starting point for my portfolio.  We'll continuously update this website with our work throughout the coding bootcamp.  It should be a landing page for all of my deployed websites.  For this task, we were able to be creative and make it visually look how we wanted it to.  This allowed me to experiment with different layouts, colors, and CSS properties that I typically wouldn't utlize.
+For this project, I was tasked with creating a starting point for my portfolio.  We'll continuously update this website with our work throughout the coding bootcamp.  It should be a landing page for all of my deployed websites.  **For this task, we were able to be creative and make it visually look how we wanted it to.**  This allowed me to experiment with different layouts, colors, and CSS properties that I typically wouldn't utlize.
 
 ## How did I do it?
 
