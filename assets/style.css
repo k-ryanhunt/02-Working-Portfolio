@@ -16,7 +16,7 @@
 body {
   position: relative;
   background-attachment: fixed;
-  background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_137204.jpg");
+  background-color: var(--mediumslate);
 }
 
 main {
@@ -87,7 +87,7 @@ footer {
   padding: 0;
   line-height: 80px;
   z-index: 1000;
-  background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_137156.jpg");
+  background-color: black;
 }
 
 figcaption {
