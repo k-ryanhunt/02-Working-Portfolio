@@ -7,12 +7,14 @@
   <link rel="stylesheet" type="text/css" href="assets/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <header>
-    <nav class="text-center">
+    <nav class="text-right">
       <ul>
         <li> <a target="_blank" href="https://github.com/k-ryanhunt"><i class="fa fa-github"></i></a></li>
         <li> <a target="blank" href="https://www.linkedin.com/in/k-ryanhunt/"><i class="fa fa-linkedin"></i></a></li>
@@ -23,54 +25,58 @@
     </nav>
   </header>
 
-  <main class="text-center">
-    <h1 id="ABOUT">HOUSE OF KEL</h1>
+  <div class='sidenav text-center'>
     <img id="picOfMe"
-      src="https://scontent.fapa1-1.fna.fbcdn.net/v/t31.0-8/28336325_10159949466470697_657506718233045925_o.jpg?_nc_cat=108&ccb=3&_nc_sid=174925&_nc_ohc=5aytMuIATMkAX8AfDV2&_nc_ht=scontent.fapa1-1.fna&oh=9120868b557795442d9699e42abb8936&oe=6050D1BB"
+      src="./assets/Images/picofme.jpg"
       alt="A picture of me">
-    <figcaption class="text-center">My name is Kelsea Hunt and I am originally from Charleston,
-      South Carolina.<br>
-      I moved to Denver, Colorado in April of 2020 during the middle of the pandemic.<br>
-      This past year I have forced myself out of my comfort zone.<br>
-      I currently work at a financial institution and wanted to try something that forces me to use my creative
-      side.<br>
-      I decided to give web development a chance so here I am!</figcaption>
-    <figure>
-      <img class="projects">
+      <figcaption class="text-center">
+        My name is Kelsea Hunt and I am originally from Charleston, South Carolina.<br>
+        I moved to Denver, Colorado in April of 2020 during the middle of the pandemic.<br>
+        This past year I have forced myself out of my comfort zone.<br>
+        I currently work at a financial institution and wanted to try something that forces me to use my creative side.<br>
+        I decided to give web development a chance so here I am!
+      </figcaption>
+  </div>
+
+  <main class="text-center">
+
+  <div class="margin-left">
+    <img class="projects">
       <h3 class="projectName" id="portfolio">Code Refactor</h3>
-      <a target="blank" href="https://k-ryanhunt.github.io/01-HTML-CSS-Git-Code-Refactor"><img class="codeRefactor"
+        <a target="blank" href="https://k-ryanhunt.github.io/01-HTML-CSS-Git-Code-Refactor"><img class="codeRefactor"
           src="./assets/Images/CODEREFACTOR.png" alt="Code Refactor"></a>
-      </img>
-    </figure>
+    </img>
+  </div>
 
-    <img class="portphoto" src="./assets/Images/LOTBSUN.jpg" alt="Lair of the Bear Sunset">
-    <img class="portphoto" src="./assets/Images/UTAH.jpg" alt="Moab, Utah">
-    <img class="portphoto" src="./assets/Images/MOAB.jpg" alt="Moab, Utah sunset">
+  <div class="margin-left">
+    <img class="portphoto row" src="./assets/Images/LOTBSUN.jpg" alt="Lair of the Bear Sunset">
+    <img class="portphoto row" src="./assets/Images/UTAH.jpg" alt="Moab, Utah">
+    <img class="portphoto row" src="./assets/Images/MOAB.jpg" alt="Moab, Utah sunset">
 
-    <img class="portphoto" src="./assets/Images/GOTG.jpg" alt="Garden of the Gods">
-    <img class="portphoto" src="./assets/Images/EI.jpg" alt="Emerald Isle, North Carolina">
-    <img class="portphoto" src="./assets/Images/GRAVE.jpg" alt="Fall Mountains in Colorado">
+    <img class="portphoto row" src="./assets/Images/GOTG.jpg" alt="Garden of the Gods">
+    <img class="portphoto row" src="./assets/Images/EI.jpg" alt="Emerald Isle, North Carolina">
+    <img class="portphoto row" src="./assets/Images/GRAVE.jpg" alt="Fall Mountains in Colorado">
 
-    <img class="portphoto" src="./assets/Images/LOTB3.jpg" alt="Lair of the Bear Creek">
-    <img class="portphoto" src="./assets/Images/LOTB.jpg" alt="Lair of the Bear babbling creek">
-    <img class="portphoto" src="./assets/Images/JEFF.jpg" alt="Jefferson Lake">
+    <img class="portphoto row" src="./assets/Images/LOTB3.jpg" alt="Lair of the Bear Creek">
+    <img class="portphoto row" src="./assets/Images/LOTB.jpg" alt="Lair of the Bear babbling creek">
+    <img class="portphoto row" src="./assets/Images/JEFF.jpg" alt="Jefferson Lake">
+  </div>
 
-
-    <section id="contactform">
+    <section class = "margin-left" id="contactform">
       <h2 class="text-center">Contact Me</h2>
-      <form>
-        <input name="name" type="text" class="feedback-input" placeholder="Kelsea Ryan Hunt" />
-        <input name="email" type="text" class="feedback-input" placeholder="hunt.kelsearyan@gmail.com" />
-        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-        <input type="submit" value="SUBMIT" />
-      </form>
+        <form>
+          <input name="name" type="text" class="feedback-input" placeholder="Kelsea Ryan Hunt" />
+          <input name="email" type="text" class="feedback-input" placeholder="hunt.kelsearyan@gmail.com" />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
     </section>
   </main>
+
+</body>
 
   <footer class="text-center">
     © 2021 House of Kel Productions
   </footer>
-
-</body>
 
 </html>
